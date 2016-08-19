@@ -1,0 +1,1 @@
+{"inputs":["D:\\test\\applib\\project.json","D:\\test\\applib\\project.lock.json","D:\\test\\applib\\Library.cs"],"outputs":["D:\\test\\applib\\bin\\Debug\\netstandard1.6\\applib.dll","D:\\test\\applib\\bin\\Debug\\netstandard1.6\\applib.pdb"],"buildArguments":{"version-suffix":null}}
