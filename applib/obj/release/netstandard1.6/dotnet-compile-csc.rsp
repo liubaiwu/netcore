@@ -1,15 +1,16 @@
-﻿-d:DEBUG
+﻿-d:RELEASE
 -d:TRACE
 -d:NETSTANDARD1_6
 -nowarn:CS1701
 -nowarn:CS1702
 -nowarn:CS1705
+-optimize
 -t:library
 -debug:portable
 -nostdlib
 -nologo
-"d:\test\netcoremvc\applib\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
--out:"d:\test\netcoremvc\applib\bin\Debug\netstandard1.6\applib.dll"
+"D:\test\netcoremvc\applib\obj\release\netstandard1.6\dotnet-compile.assemblyinfo.cs"
+-out:"D:\test\netcoremvc\applib\bin\release\netstandard1.6\applib.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.AppContext\4.1.0\ref\netstandard1.6\System.AppContext.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Collections\4.0.11\ref\netstandard1.3\System.Collections.dll"
@@ -53,4 +54,4 @@
 -r:"C:\Users\Administrator\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
-"d:\test\netcoremvc\applib\Library.cs"
+"D:\test\netcoremvc\applib\Library.cs"
