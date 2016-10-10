@@ -1,6 +1,8 @@
 
 using StackExchange.Redis;
 using Me.Utils;
+using System;
+
 namespace CommonCore
 {
     public class RedisCommon
@@ -9,9 +11,31 @@ namespace CommonCore
         private IDatabase _db;
 
         private IServer _server;
+        ConfigurationOptions option=new ConfigurationOptions();
         public RedisCommon(string ip,int port,string password)
         {    
-            _redis= ConnectionMultiplexer.Connect(ip+":"+port+",password:"+password);
+            /*
+            var configurationOptions = new ConfigurationOptions
+            {
+                EndPoints =
+                {
+                    { ip, port }
+                },
+                KeepAlive = 180,
+                Password =password,
+                // Needed for cache clear
+                AllowAdmin = true
+            };
+
+            var connectionMultiplexer = ConnectionMultiplexer.Connect(configurationOptions );
+            */
+            if(string.IsNullOrEmpty(password))
+            {
+                _redis= ConnectionMultiplexer.Connect(ip+":"+port);
+            }
+            else{
+                _redis= ConnectionMultiplexer.Connect(ip+":"+port+",password:"+password);
+            }
             _db = _redis.GetDatabase();
             _server = _redis.GetServer(ip, port);
         }
