@@ -8,8 +8,13 @@
 -debug:portable
 -nostdlib
 -nologo
+<<<<<<< HEAD
 "d:\test\netcoremvc\Me.Utils\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
 -out:"d:\test\netcoremvc\Me.Utils\bin\Debug\netstandard1.6\Me.Utils.dll"
+=======
+"D:\test\netcoremvc\Me.Utils\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
+-out:"D:\test\netcoremvc\Me.Utils\bin\Debug\netstandard1.6\Me.Utils.dll"
+>>>>>>> ee6cd6457b956e6a1a9e6e16cbc737e56ec6a9e5
 -r:"C:\Users\Administrator\.nuget\packages\Microsoft.CSharp\4.0.1-rc2-24027\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Newtonsoft.Json\9.0.1-beta1\lib\netstandard1.0\Newtonsoft.Json.dll"
@@ -57,4 +62,8 @@
 -r:"C:\Users\Administrator\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
+<<<<<<< HEAD
 "d:\test\netcoremvc\Me.Utils\Utils.cs"
+=======
+"D:\test\netcoremvc\Me.Utils\Utils.cs"
+>>>>>>> ee6cd6457b956e6a1a9e6e16cbc737e56ec6a9e5

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"inputs":["d:\\test\\netcoremvc\\Me.Utils\\project.json","d:\\test\\netcoremvc\\Me.Utils\\project.lock.json","d:\\test\\netcoremvc\\Me.Utils\\Utils.cs"],"outputs":["d:\\test\\netcoremvc\\Me.Utils\\bin\\Debug\\netstandard1.6\\Me.Utils.dll","d:\\test\\netcoremvc\\Me.Utils\\bin\\Debug\\netstandard1.6\\Me.Utils.pdb"],"buildArguments":{"version-suffix":null}}
+=======
+{"inputs":["D:\\test\\netcoremvc\\Me.Utils\\project.json","D:\\test\\netcoremvc\\Me.Utils\\project.lock.json","D:\\test\\netcoremvc\\Me.Utils\\Utils.cs"],"outputs":["D:\\test\\netcoremvc\\Me.Utils\\bin\\Debug\\netstandard1.6\\Me.Utils.dll","D:\\test\\netcoremvc\\Me.Utils\\bin\\Debug\\netstandard1.6\\Me.Utils.pdb"],"buildArguments":{"version-suffix":null}}
+>>>>>>> ee6cd6457b956e6a1a9e6e16cbc737e56ec6a9e5
