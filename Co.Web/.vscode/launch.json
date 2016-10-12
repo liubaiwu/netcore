@@ -26,7 +26,7 @@
                 }
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development"//环境配置，当前为开发环境  开发： Development，预演：Staging 和 生产：Production
             },
             "sourceFileMap": {
                 "/Views": "${workspaceRoot}/Views"
