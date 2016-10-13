@@ -22,7 +22,7 @@ namespace Co.Utils
             {
                 return default(T);
             }
-           return (T)JsonConvert.DeserializeObject(json);
+           return JsonConvert.DeserializeObject<T>(json);
         }
     }
 }

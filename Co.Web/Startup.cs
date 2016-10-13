@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Co.Core.Cache;
+using Co.Dao;
+using Co.IService;
+using Co.Model;
+using Co.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -55,6 +59,12 @@ namespace WebApplication
             services.AddTransient<ISmsSender, AuthMessageSender>();
 
             services.AddSingleton<ICacheManager>(new RedisCacheManager(Configuration.GetConnectionString("CommRedisConnection"),1));
+            services.AddSingleton<DapperFactory>(new SqlDapperFactory(Configuration.GetConnectionString("sqlConnectionString")));//数据库连接
+            //services.AddTransient();// s=new ();
+            services.AddTransient<IBaseService<AD>,BaseService<AD>>();
+
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -71,6 +81,9 @@ namespace WebApplication
             }
             else
             {
+                app.UseDeveloperExceptionPage();
+                app.UseDatabaseErrorPage();
+                app.UseBrowserLink();
                 app.UseExceptionHandler("/Home/Error");
             }
 

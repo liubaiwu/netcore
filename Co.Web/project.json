@@ -40,7 +40,9 @@
     },
     "Co.Core":"1.0.0",
     "Co.Utils":"1.0.0",
-    "Dapper":"1.50.2"
+    "Dapper":"1.50.2",
+    "Co.Service":"1.0.0",
+    "Co.Model":"1.0.0"
   },
 
   "tools": {

@@ -6,29 +6,33 @@ using Microsoft.AspNetCore.Mvc;
 using Dapper;
 using System.Data.SqlClient;
 using Co.Core.Cache;
+using Co.IService;
+using Co.Model;
+using Co.Service;
 
 namespace WebApplication.Controllers
 {
     public class HomeController : Controller
     {
         ICacheManager _cache;
-
-        public HomeController(ICacheManager c)
+        IBaseService<AD> _s;
+        public HomeController(ICacheManager c,IBaseService<AD> s)
         {
                 this._cache=c;
+                this._s=s;
         }
 
         public IActionResult Index()
         {
-            SqlConnection con = new SqlConnection("server=120.24.171.142;database=kuaiyidaidb_test;uid=sa;pwd=duoyingABC;");
+            /*SqlConnection con = new SqlConnection("server=120.24.171.142;database=kuaiyidaidb_test;uid=sa;pwd=duoyingABC;");
             var list=con.Query<dynamic>("select top 10 * from god where FullName is not null");
             ViewData["godlist"]=list;
             con.Close();
-             
+             */
 
-            _cache.Set<string>("a","1");
+            var x=  _s.GetById(15);
 
-            var dd= _cache.Get<string>("a");
+           ViewBag.Ad=x;
 
 
             return View();
