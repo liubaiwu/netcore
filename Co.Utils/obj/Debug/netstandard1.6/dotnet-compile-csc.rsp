@@ -8,8 +8,8 @@
 -debug:portable
 -nostdlib
 -nologo
-"d:\test\netcoremvc\Co.Utils\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
--out:"d:\test\netcoremvc\Co.Utils\bin\Debug\netstandard1.6\Co.Utils.dll"
+"D:\test\netcoremvc\Co.Utils\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
+-out:"D:\test\netcoremvc\Co.Utils\bin\Debug\netstandard1.6\Co.Utils.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Microsoft.CSharp\4.0.1-rc2-24027\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Microsoft.Extensions.Primitives\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll"
@@ -59,5 +59,5 @@
 -r:"C:\Users\Administrator\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
-"d:\test\netcoremvc\Co.Utils\ConfigUtils.cs"
-"d:\test\netcoremvc\Co.Utils\UtilsHelper.cs"
+"D:\test\netcoremvc\Co.Utils\ConfigUtils.cs"
+"D:\test\netcoremvc\Co.Utils\UtilsHelper.cs"

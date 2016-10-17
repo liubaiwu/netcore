@@ -8,8 +8,8 @@
 -debug:portable
 -nostdlib
 -nologo
-"d:\test\netcoremvc\Co.Service\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
--out:"d:\test\netcoremvc\Co.Service\bin\Debug\netstandard1.6\Co.Service.dll"
+"D:\test\netcoremvc\Co.Service\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
+-out:"D:\test\netcoremvc\Co.Service\bin\Debug\netstandard1.6\Co.Service.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Dapper\1.50.2\lib\netstandard1.3\Dapper.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Microsoft.CSharp\4.0.1-rc2-24027\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\Administrator\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll"
@@ -74,8 +74,8 @@
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll"
--r:"d:\test\netcoremvc\Co.Core\bin\Debug\netstandard1.6\Co.Core.dll"
--r:"d:\test\netcoremvc\Co.Dao\bin\Debug\netstandard1.6\Co.Dao.dll"
--r:"d:\test\netcoremvc\Co.IService\bin\Debug\netstandard1.6\Co.IService.dll"
--r:"d:\test\netcoremvc\Co.Utils\bin\Debug\netstandard1.6\Co.Utils.dll"
-"d:\test\netcoremvc\Co.Service\BaseService.cs"
+-r:"D:\test\netcoremvc\Co.Core\bin\Debug\netstandard1.6\Co.Core.dll"
+-r:"D:\test\netcoremvc\Co.Dao\bin\Debug\netstandard1.6\Co.Dao.dll"
+-r:"D:\test\netcoremvc\Co.IService\bin\Debug\netstandard1.6\Co.IService.dll"
+-r:"D:\test\netcoremvc\Co.Utils\bin\Debug\netstandard1.6\Co.Utils.dll"
+"D:\test\netcoremvc\Co.Service\BaseService.cs"

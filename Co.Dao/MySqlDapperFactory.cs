@@ -1,14 +1,11 @@
 using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace Co.Dao
 {
     //数据库工厂
     public sealed class MySqlDapperFactory : DapperFactory
     {
-        private static  IDbConnection _conn;
-        private static readonly object locker=new object();
-
-        string _connectionString;
         public MySqlDapperFactory(string connectionString)
         {
             _connectionString=connectionString;
@@ -22,7 +19,7 @@ namespace Co.Dao
                 {
                     if(_conn==null)
                     {
-                        
+                        _conn=new MySqlConnection(_connectionString);
                     }
                 }
             }

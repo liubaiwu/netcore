@@ -6,9 +6,11 @@ namespace Co.Dao
     //数据库工厂
     public sealed class SqlDapperFactory : DapperFactory
     {
+        /*
         private static  IDbConnection _conn;
         string _connectionString;
         private static readonly object locker=new object();
+        */
         ///初始化连接
         public SqlDapperFactory(string connectionString)
         {

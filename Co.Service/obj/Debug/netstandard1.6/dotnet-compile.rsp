@@ -1,5 +1,5 @@
---temp-output:d:\test\netcoremvc\Co.Service\obj\Debug\netstandard1.6\
---out:d:\test\netcoremvc\Co.Service\bin\Debug\netstandard1.6\Co.Service.dll
+--temp-output:D:\test\netcoremvc\Co.Service\obj\Debug\netstandard1.6\
+--out:D:\test\netcoremvc\Co.Service\bin\Debug\netstandard1.6\Co.Service.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -77,8 +77,8 @@
 --reference:C:\Users\Administrator\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Administrator\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\Administrator\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
---reference:d:\test\netcoremvc\Co.Core\bin\Debug\netstandard1.6\Co.Core.dll
---reference:d:\test\netcoremvc\Co.Dao\bin\Debug\netstandard1.6\Co.Dao.dll
---reference:d:\test\netcoremvc\Co.IService\bin\Debug\netstandard1.6\Co.IService.dll
---reference:d:\test\netcoremvc\Co.Utils\bin\Debug\netstandard1.6\Co.Utils.dll
-d:\test\netcoremvc\Co.Service\BaseService.cs
+--reference:D:\test\netcoremvc\Co.Core\bin\Debug\netstandard1.6\Co.Core.dll
+--reference:D:\test\netcoremvc\Co.Dao\bin\Debug\netstandard1.6\Co.Dao.dll
+--reference:D:\test\netcoremvc\Co.IService\bin\Debug\netstandard1.6\Co.IService.dll
+--reference:D:\test\netcoremvc\Co.Utils\bin\Debug\netstandard1.6\Co.Utils.dll
+D:\test\netcoremvc\Co.Service\BaseService.cs

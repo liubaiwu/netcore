@@ -57,9 +57,14 @@ namespace WebApplication
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+            var UseSqlType=Configuration.GetConnectionString("UseSqlType");
 
-            services.AddSingleton<ICacheManager>(new RedisCacheManager(Configuration.GetConnectionString("CommRedisConnection"),1));
-            services.AddSingleton<DapperFactory>(new SqlDapperFactory(Configuration.GetConnectionString("sqlConnectionString")));//数据库连接
+            services.AddSingleton<ICacheManager>(new RedisCacheManager(Configuration.GetConnectionString("CommRedisConnection")));
+            if(UseSqlType=="MySql"){
+                services.AddSingleton<DapperFactory>(new MySqlDapperFactory(Configuration.GetConnectionString("sqlConnectionString")));//数据库连接
+            }else if(UseSqlType=="SQLServer"){
+                services.AddSingleton<DapperFactory>(new SqlDapperFactory(Configuration.GetConnectionString("sqlConnectionString")));//数据库连接
+            }
             //services.AddTransient();// s=new ();
             services.AddTransient<IBaseService<AD>,BaseService<AD>>();
 

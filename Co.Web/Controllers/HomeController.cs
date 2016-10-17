@@ -9,6 +9,7 @@ using Co.Core.Cache;
 using Co.IService;
 using Co.Model;
 using Co.Service;
+using MySql.Data.MySqlClient;
 
 namespace WebApplication.Controllers
 {
@@ -22,15 +23,17 @@ namespace WebApplication.Controllers
                 this._s=s;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int Id=1)
         {
             /*SqlConnection con = new SqlConnection("server=120.24.171.142;database=kuaiyidaidb_test;uid=sa;pwd=duoyingABC;");
             var list=con.Query<dynamic>("select top 10 * from god where FullName is not null");
             ViewData["godlist"]=list;
             con.Close();
-             */
-
-            var x=  _s.GetById(15);
+             
+            MySqlConnection conn=new MySqlConnection("server=192.168.2.46;database=test;uid=root;pwd=123456;charset='gbk';SslMode=None");
+            var list11= conn.Query<dynamic>("select * from AD").ToList();
+            */
+            var x=  _s.GetById(Id);
 
            ViewBag.Ad=x;
 
