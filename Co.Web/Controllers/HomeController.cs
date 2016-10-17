@@ -33,6 +33,8 @@ namespace WebApplication.Controllers
             MySqlConnection conn=new MySqlConnection("server=192.168.2.46;database=test;uid=root;pwd=123456;charset='gbk';SslMode=None");
             var list11= conn.Query<dynamic>("select * from AD").ToList();
             */
+
+            var test=1;
             var x=  _s.GetById(Id);
 
            ViewBag.Ad=x;
