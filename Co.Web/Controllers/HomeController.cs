@@ -56,18 +56,49 @@ namespace WebApplication.Controllers
             */
 
             
-            /*
-
-            var test=1;
+            
             var x=  _s.GetById(Id);
 
            ViewBag.Ad=x;
-*/
+
+
+
+            DateTime dtime = DateTime.Now;
+            int i = 0;
+            while (true)
+            {
+                DateTime entTime = DateTime.Now;
+                double d = ExecDateDiff(dtime, entTime);
+                if (d > 1 * 1000)
+                    break;
+
+                _cache.Set("keys" + i, "" + i);
+                i++;
+            }
+
+            ViewBag.I = i.ToString();
 
             
+            
+
 
             return View();
         }
+        /// <summary>
+        /// 程序执行时间测试
+        /// </summary>
+        /// <param name="dateBegin">开始时间</param>
+        /// <param name="dateEnd">结束时间</param>
+        /// <returns>返回(秒)单位，比如: 0.00239秒</returns>
+        public double ExecDateDiff(DateTime dateBegin, DateTime dateEnd)
+        {
+            TimeSpan ts1 = new TimeSpan(dateBegin.Ticks);
+            TimeSpan ts2 = new TimeSpan(dateEnd.Ticks);
+            TimeSpan ts3 = ts1.Subtract(ts2).Duration();
+            //你想转的格式
+            return ts3.TotalMilliseconds;
+        }
+
 
         public IActionResult About()
         {
