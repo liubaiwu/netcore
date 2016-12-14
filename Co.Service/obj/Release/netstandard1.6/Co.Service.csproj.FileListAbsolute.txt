@@ -1,0 +1,14 @@
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.Service.dll
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.Service.pdb
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.Core.dll
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.Dao.dll
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.IService.dll
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.Utils.dll
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.IService.pdb
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.Dao.pdb
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.Core.pdb
+D:\netcore\Co.Service\bin\Release\netstandard1.6\Co.Utils.pdb
+D:\netcore\Co.Service\obj\Release\netstandard1.6\Co.Service.csprojResolveAssemblyReference.cache
+D:\netcore\Co.Service\obj\Release\netstandard1.6\Co.Service.AssemblyInfo.cs
+D:\netcore\Co.Service\obj\Release\netstandard1.6\Co.Service.dll
+D:\netcore\Co.Service\obj\Release\netstandard1.6\Co.Service.pdb

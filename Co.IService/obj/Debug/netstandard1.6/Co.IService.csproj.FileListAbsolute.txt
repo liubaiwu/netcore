@@ -1,0 +1,11 @@
+D:\test\netcoremvc\Co.IService\bin\Debug\netstandard1.6\Co.IService.dll
+D:\test\netcoremvc\Co.IService\bin\Debug\netstandard1.6\Co.IService.pdb
+D:\test\netcoremvc\Co.IService\obj\Debug\netstandard1.6\Co.IService.AssemblyInfo.cs
+D:\test\netcoremvc\Co.IService\obj\Debug\netstandard1.6\Co.IService.dll
+D:\test\netcoremvc\Co.IService\obj\Debug\netstandard1.6\Co.IService.pdb
+D:\netcore\Co.IService\bin\Debug\netstandard1.6\Co.IService.dll
+D:\netcore\Co.IService\bin\Debug\netstandard1.6\Co.IService.pdb
+D:\netcore\Co.IService\obj\Debug\netstandard1.6\Co.IService.AssemblyInfo.cs
+D:\netcore\Co.IService\obj\Debug\netstandard1.6\Co.IService.dll
+D:\netcore\Co.IService\obj\Debug\netstandard1.6\Co.IService.pdb
+D:\netcore\Co.IService\obj\Debug\netstandard1.6\Co.IService.csprojResolveAssemblyReference.cache

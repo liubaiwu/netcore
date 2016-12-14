@@ -1,0 +1,6 @@
+D:\netcore\Co.Ioc\bin\Debug\netstandard1.4\Co.Ioc.dll
+D:\netcore\Co.Ioc\obj\Debug\netstandard1.4\Co.Ioc.csprojResolveAssemblyReference.cache
+D:\netcore\Co.Ioc\obj\Debug\netstandard1.4\Co.Ioc.AssemblyInfo.cs
+D:\netcore\Co.Ioc\bin\Debug\netstandard1.4\Co.Ioc.pdb
+D:\netcore\Co.Ioc\obj\Debug\netstandard1.4\Co.Ioc.dll
+D:\netcore\Co.Ioc\obj\Debug\netstandard1.4\Co.Ioc.pdb

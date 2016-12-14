@@ -1,0 +1,5 @@
+D:\netcore\Co.Model\bin\Release\netstandard1.6\Co.Model.dll
+D:\netcore\Co.Model\bin\Release\netstandard1.6\Co.Model.pdb
+D:\netcore\Co.Model\obj\Release\netstandard1.6\Co.Model.AssemblyInfo.cs
+D:\netcore\Co.Model\obj\Release\netstandard1.6\Co.Model.dll
+D:\netcore\Co.Model\obj\Release\netstandard1.6\Co.Model.pdb

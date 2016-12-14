@@ -1,0 +1,6 @@
+D:\netcore\Co.Dao\bin\Release\netstandard1.6\Co.Dao.dll
+D:\netcore\Co.Dao\bin\Release\netstandard1.6\Co.Dao.pdb
+D:\netcore\Co.Dao\obj\Release\netstandard1.6\Co.Dao.csprojResolveAssemblyReference.cache
+D:\netcore\Co.Dao\obj\Release\netstandard1.6\Co.Dao.AssemblyInfo.cs
+D:\netcore\Co.Dao\obj\Release\netstandard1.6\Co.Dao.dll
+D:\netcore\Co.Dao\obj\Release\netstandard1.6\Co.Dao.pdb

@@ -1,0 +1,5 @@
+D:\netcore\Co.IService\bin\Release\netstandard1.6\Co.IService.dll
+D:\netcore\Co.IService\bin\Release\netstandard1.6\Co.IService.pdb
+D:\netcore\Co.IService\obj\Release\netstandard1.6\Co.IService.AssemblyInfo.cs
+D:\netcore\Co.IService\obj\Release\netstandard1.6\Co.IService.dll
+D:\netcore\Co.IService\obj\Release\netstandard1.6\Co.IService.pdb
