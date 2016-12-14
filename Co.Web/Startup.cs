@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Co.Core.Cache;
 using Co.Dao;
@@ -14,6 +15,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using SimpleTokenProvider;
 using WebApplication.Data;
 using WebApplication.Models;
 using WebApplication.Services;
@@ -29,11 +33,7 @@ namespace WebApplication
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
 
-            if (env.IsDevelopment())
-            {
-                // For more details on using the user secret store see https://go.microsoft.com/fwlink/?LinkID=532709
-                builder.AddUserSecrets();
-            }
+        
 
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();
@@ -71,7 +71,7 @@ namespace WebApplication
             
 
         }
-
+ 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
@@ -93,10 +93,40 @@ namespace WebApplication
             }
 
             app.UseStaticFiles();
-
+            
             app.UseIdentity();
+            /*
+                        var secretKey = "mysupersecret_secretkey!123";
+                        var signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretKey));
+                    
+                        // Add JWT generation endpoint:
+                
+                        var options = new TokenProviderOptions
+                        {
+                            Audience = "ExampleAudience",
+                            Issuer = "ExampleIssuer",
+                            SigningCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256),
+                        };
+            
+                        app.UseMiddleware<TokenProviderMiddleware>(Options.Create(options));
 
-            // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
+
+
+                        // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
+            */
+
+            var audienceConfig = Configuration.GetSection("Audience");//从配置文件获取配置集合
+              var symmetricKeyAsBase64 = audienceConfig["Secret"];//获取配置集合中具体的配置项
+              var keyByteArray = Encoding.ASCII.GetBytes(symmetricKeyAsBase64);
+              var signingKey = new SymmetricSecurityKey(keyByteArray);
+  
+              app.UseTokenProvider(new TokenProviderOptions
+             {
+                 Audience = "Catcher Wong",
+                 Issuer = "http://catcher1994.cnblogs.com/",
+                SigningCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256),
+             });
+
 
             app.UseMvc(routes =>
             {
@@ -105,5 +135,6 @@ namespace WebApplication
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+        
     }
 }

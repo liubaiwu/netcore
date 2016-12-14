@@ -31,8 +31,13 @@ namespace Co.Core.Cache
                     lock (_locker)                   
                     {                        
                         if (instance != null)                           
-                            return instance;                       
-                        instance = ConnectionMultiplexer.Connect(ConnectionString);
+                            return instance;
+
+                        var options = ConfigurationOptions.Parse(ConnectionString);
+                        options.SyncTimeout = int.MaxValue;
+                        options.AllowAdmin = true;
+
+                        instance = ConnectionMultiplexer.Connect(options);
                         dicMap[ConnectionString]=instance;                     
                         return instance;                    
                     }                

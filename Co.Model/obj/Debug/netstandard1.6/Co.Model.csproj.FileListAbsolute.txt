@@ -1,0 +1,6 @@
+D:\test\netcoremvc\Co.Model\bin\Debug\netstandard1.6\Co.Model.dll
+D:\test\netcoremvc\Co.Model\bin\Debug\netstandard1.6\Co.Model.pdb
+D:\test\netcoremvc\Co.Model\obj\Debug\netstandard1.6\Co.Model.AssemblyInfo.cs
+D:\test\netcoremvc\Co.Model\obj\Debug\netstandard1.6\Co.Model.dll
+D:\test\netcoremvc\Co.Model\obj\Debug\netstandard1.6\Co.Model.pdb
+D:\test\netcoremvc\Co.Model\obj\Debug\netstandard1.6\Co.Model.csprojResolveAssemblyReference.cache

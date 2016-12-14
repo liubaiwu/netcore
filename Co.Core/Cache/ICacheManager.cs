@@ -6,5 +6,7 @@ namespace Co.Core.Cache
         T Get<T>(string key);
         ///设置
         bool Set<T>(string key,T t);
+
+        bool Set(string key,string value);
     }
 }

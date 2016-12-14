@@ -1,5 +1,5 @@
---temp-output:D:\test\netcoremvc\Co.Utils\obj\Debug\netstandard1.6\
---out:D:\test\netcoremvc\Co.Utils\bin\Debug\netstandard1.6\Co.Utils.dll
+--temp-output:d:\test\netcoremvc\Co.Utils\obj\Debug\netstandard1.6\
+--out:d:\test\netcoremvc\Co.Utils\bin\Debug\netstandard1.6\Co.Utils.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -62,5 +62,5 @@
 --reference:C:\Users\Administrator\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Administrator\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Administrator\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
-D:\test\netcoremvc\Co.Utils\ConfigUtils.cs
-D:\test\netcoremvc\Co.Utils\UtilsHelper.cs
+d:\test\netcoremvc\Co.Utils\ConfigUtils.cs
+d:\test\netcoremvc\Co.Utils\UtilsHelper.cs

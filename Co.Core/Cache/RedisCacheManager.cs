@@ -30,5 +30,12 @@ namespace Co.Core.Cache
             return Cache.StringSet(key,UtilsHelper.Serialize<T>(t));
             }
         }
+
+        public bool Set(string key, string value)
+        {
+            lock(_locker){
+            return Cache.StringSet(key,value);
+            }
+        }
     }
 }
