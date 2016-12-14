@@ -28,6 +28,7 @@ namespace WebApplication.Controllers
         }
         public IActionResult Index(int Id=1)
         {
+            
 /*
             var cName=new Claim(ClaimTypes.Name, "奥巴马");//证件单元
           

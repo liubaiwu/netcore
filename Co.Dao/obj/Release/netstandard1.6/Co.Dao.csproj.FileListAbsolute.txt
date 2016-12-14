@@ -1,0 +1,6 @@
+D:\test\netcoremvc\Co.Dao\bin\Release\netstandard1.6\Co.Dao.dll
+D:\test\netcoremvc\Co.Dao\bin\Release\netstandard1.6\Co.Dao.pdb
+D:\test\netcoremvc\Co.Dao\obj\Release\netstandard1.6\Co.Dao.AssemblyInfo.cs
+D:\test\netcoremvc\Co.Dao\obj\Release\netstandard1.6\Co.Dao.dll
+D:\test\netcoremvc\Co.Dao\obj\Release\netstandard1.6\Co.Dao.pdb
+D:\test\netcoremvc\Co.Dao\obj\Release\netstandard1.6\Co.Dao.csprojResolveAssemblyReference.cache

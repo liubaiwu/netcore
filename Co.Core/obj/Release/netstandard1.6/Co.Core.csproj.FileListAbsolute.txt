@@ -1,0 +1,8 @@
+D:\test\netcoremvc\Co.Core\bin\Release\netstandard1.6\Co.Core.dll
+D:\test\netcoremvc\Co.Core\bin\Release\netstandard1.6\Co.Core.pdb
+D:\test\netcoremvc\Co.Core\bin\Release\netstandard1.6\Co.Utils.dll
+D:\test\netcoremvc\Co.Core\bin\Release\netstandard1.6\Co.Utils.pdb
+D:\test\netcoremvc\Co.Core\obj\Release\netstandard1.6\Co.Core.csprojResolveAssemblyReference.cache
+D:\test\netcoremvc\Co.Core\obj\Release\netstandard1.6\Co.Core.AssemblyInfo.cs
+D:\test\netcoremvc\Co.Core\obj\Release\netstandard1.6\Co.Core.dll
+D:\test\netcoremvc\Co.Core\obj\Release\netstandard1.6\Co.Core.pdb
